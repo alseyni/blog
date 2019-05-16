@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Blog de Seinaly{% endblock %}
+
+{% block body %}
+    <section class="article">
+        <article>
+            <h2>Titre de l'article</h2>
+            <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+            <div class="content">
+                <img src="https://via.placeholder.com/350" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae, asperiores quo doloribus rem numquam.</p>
+                <p>Voluptate voluptatem iste numquam nisi exercitationem optio accusamus quidem ab soluta dolorum, a, quos asperiores?</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+            </div>
+        </article>
+        <article>
+            <h2>Titre de l'article</h2>
+            <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+            <div class="content">
+                <img src="https://via.placeholder.com/350" alt="">
+                <p>Modi iusto at, molestias facilis quasi eum quibusdam, culpa suscipit dicta laborum cumque. Obcaecati, quam!</p>
+                <p>Ipsum porro, officiis voluptatum tenetur mollitia fugiat, corporis numquam voluptas rerum itaque dicta hic eos?</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+            </div>
+        </article>
+        <article>
+            <h2>Titre de l'article</h2>
+            <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+            <div class="content">
+                <img src="https://via.placeholder.com/350" alt="">
+                <p>Ipsum, impedit dolorum. Error ullam esse beatae laborum ipsam quasi delectus aut quibusdam saepe consequuntur.</p>
+                <p>Dolorum magnam quia aut pariatur at quae explicabo omnis dolores, quidem, minima, illum possimus voluptas?</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+            </div>
+        </article>
+    </section>
+{% endblock %}
